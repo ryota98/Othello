@@ -16,8 +16,6 @@ public class Othello extends Application{
     public static final int GRID_SIZE = 40;//マスの大きさ
     public int tebanFlg;
     public Text text;
-    public int BlackCnt;
-    public int WhiteCnt;
     GraphicsContext g;
     GridInfo gi = new GridInfo(GRID_X, GRID_Y);
 
